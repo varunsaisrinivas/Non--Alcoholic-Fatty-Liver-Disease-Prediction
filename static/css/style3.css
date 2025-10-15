@@ -1,0 +1,43 @@
+body {
+    background-color: #ffffff; /* white background */
+    margin: 0; /* remove default margin */
+    font-family: Arial, sans-serif; /* set a default font-family */
+}
+
+.heading {
+    background-color: #262626; /* dark gray background for heading */
+    color: #ffffff; /* white text color for heading */
+    padding: 20px; /* add padding for spacing */
+}
+
+.container {
+    width: 80%; /* set a width for the container */
+    margin: auto; /* center the container */
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px; /* add padding for spacing */
+    background-color: #262626; /* dark gray background for the about section */
+    color: #ffffff; /* white text color for the about section */
+}
+
+.about-image img {
+    max-width: 100%; /* make sure the image doesn't exceed its container */
+}
+
+.about-content {
+    width: 60%; /* set a width for the content */
+}
+
+.read-more {
+    color: #ffffff; /* white text color for the read more link */
+    text-decoration: none; /* remove underline */
+    font-weight: bold; /* add bold font weight */
+}
+
+.read-more:hover {
+    text-decoration: underline; /* add underline on hover */
+}
