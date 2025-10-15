@@ -8,32 +8,26 @@ This project leverages machine learning algorithms including Random Forest, Grad
 
 Programming Language: Python
 Libraries & Frameworks:
-
 Pandas & NumPy (Data manipulation)
-
 Scikit-learn (Machine learning algorithms, preprocessing, evaluation)
-
 XGBoost (Gradient boosting implementation)
-
 Imbalanced-learn (SMOTE for oversampling)
-
 Matplotlib & Seaborn (Data visualization)
 
-Tools:
+## Tools:
 
 Jupyter Notebook / Python IDE
-
 Kaggle dataset for Indian Liver Patient data
 
-Project Workflow
+### Project Workflow
 
-Data Collection:
+1. Data Collection:
 
 Dataset downloaded from Kaggle, initially containing 483 rows and 11 columns.
 
 Oversampling (SMOTE) applied to handle class imbalance, expanding dataset to 1057 rows.
 
-Data Preprocessing:
+2. Data Preprocessing:
 
 Split dataset into training (70%) and testing (30%) sets.
 
@@ -41,19 +35,19 @@ Standardized numeric features using feature scaling (for applicable models).
 
 Handled categorical variables like gender.
 
-Model Implementation:
+3. Model Implementation:
 
 Trained multiple machine learning models: Random Forest, Gradient Boosting, XGBoost.
 
 Performed hyperparameter tuning using Grid Search CV and Randomized Search CV.
 
-Model Evaluation:
+4. Model Evaluation:
 
 Used metrics: Accuracy, Precision, Recall, F1-score, Matthews Correlation Coefficient (MCC).
 
 Confusion matrix analyzed for True Positive, False Positive, True Negative, False Negative.
 
-Results & Insights:
+5. Results & Insights:
 
 XGBoost achieved highest accuracy (96%) with strong precision and recall.
 
@@ -61,6 +55,6 @@ Randomized Search CV provided optimal performance with reduced computation time.
 
 Boosting + cross-validation enhanced robustness and generalizability of predictions.
 
-Conclusion:
+6. Conclusion:
 
 The pipeline successfully predicts NAFLD and can be extended to other liver-related datasets.
