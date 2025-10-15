@@ -9,6 +9,7 @@ This project leverages machine learning algorithms including Random Forest, Grad
 Programming Language: Python
 
 Libraries & Frameworks:
+
 Pandas & NumPy (Data manipulation)
 
 Scikit-learn (Machine learning algorithms, preprocessing, evaluation)
@@ -22,6 +23,7 @@ Matplotlib & Seaborn (Data visualization)
 ## Tools:
 
 Jupyter Notebook / Python IDE
+
 Kaggle dataset for Indian Liver Patient data
 
 ## Project Workflow
