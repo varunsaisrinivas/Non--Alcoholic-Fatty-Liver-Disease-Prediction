@@ -10,9 +10,13 @@ Programming Language: Python
 
 Libraries & Frameworks:
 Pandas & NumPy (Data manipulation)
+
 Scikit-learn (Machine learning algorithms, preprocessing, evaluation)
+
 XGBoost (Gradient boosting implementation)
+
 Imbalanced-learn (SMOTE for oversampling)
+
 Matplotlib & Seaborn (Data visualization)
 
 ## Tools:
@@ -56,6 +60,6 @@ Randomized Search CV provided optimal performance with reduced computation time.
 
 Boosting + cross-validation enhanced robustness and generalizability of predictions.
 
-6. Conclusion:
+# 6.Conclusion:
 
 The pipeline successfully predicts NAFLD and can be extended to other liver-related datasets.
